@@ -11,6 +11,7 @@ public class Projectll {
             while ((line = reader.readLine()) != null) {
                 String[] parts = line.split(" ");
                 String name = parts[0] + "," + parts[1];
+                // System.out.println(name);
                 int creditHours = Integer.parseInt(parts[2]);
                 double qualityPoints = Double.parseDouble(parts[3]);
                 String lastPart = parts[4];
@@ -30,6 +31,7 @@ public class Projectll {
             double gpaThreshold = (averageGpa + 4.0) / 2;
             Students.setGpaThreshold(gpaThreshold);
             System.out.println("GPA Threshold: " + String.format("%.2f", gpaThreshold));
+            System.out.println("The below students are eligible for membership:");
 
             for (Students student : students) {
                 if (student.eligibleForHonorSociety()) {

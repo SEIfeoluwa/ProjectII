@@ -1,0 +1,5 @@
+Brown William 72 230 Junior
+Johnson Mary 21 77 Masters
+Jones Sally 32 95 Sophomore
+Smith John 45 180 Senior
+Doe Jane 60 240 Masters
